@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "userName": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "total_price": {
+      "type": "decimal"
+    }
+  }
+}
